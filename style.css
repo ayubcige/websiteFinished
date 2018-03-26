@@ -111,6 +111,37 @@ header{
     border-radius: 0px 0px 10px 10px;
 }
 
+.login1 span p{
+    width: 30%;
+    margin: 50px auto 0px;
+    color : white;
+    background: #5f9ea0;
+    border: 1px solid black;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding :20px;
+    text-align: center;
+    font-size: 2em;
+    font-family: Arial;
+}
+.login1 p{
+    font-size: 2em;
+    font-family: Arial;
+    color: red;
+
+    border: 2px solid red;
+    padding: 8px;
+}
+.login1 form{
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid black;
+    background: white;
+
+    border-radius: 0px 0px 10px 10px;
+}
+
 .input-group1{
     margin: 10px 0px 10px 0px;
 
@@ -141,4 +172,13 @@ header{
     background: #5f9ea0;
     border: none;
     border-radius: 5px;
+}
+
+.download a{
+    border-style: solid;
+    border-radius: 10px;
+    background-color: green;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
 }

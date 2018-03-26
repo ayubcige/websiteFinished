@@ -11,6 +11,7 @@
 </head>
 <body>
 
+
 <header>
 
 <div class="title">
@@ -20,28 +21,34 @@
 
 <div class="login">
 
-    <form method="post" action="">
 
-        <div class="input-group">
-            <label for="">Email</label>
-            <input type="email" name="email">
-        </div>
-
-        <div class="input-group">
-            <label for="">Password</label>
-            <input type="password" name="password">
-        </div>
-
-        <div class="input-group">
-           <button type="submit" name="login" class="btn">login</button>
-        </div>
-
-    </form>
 
 </div>
 
 </header>
 
+<div class="login1">
+
+    <span><p>Login</p></span>
+
+    <form method="post" action="index.php">
+        <?php include('errors.php')?>
+        <div class="input-group1">
+            <label for="">Email</label>
+            <input type="email" name="email">
+        </div>
+
+        <div class="input-group1">
+            <label for="">Password</label>
+            <input type="password" name="password1">
+        </div>
+
+        <div class="input-group1">
+            <button type="submit" name="login" class="btn1">login</button>
+        </div>
+
+    </form>
+</div>
 
 <div class="video">
 
@@ -80,7 +87,7 @@
 </div>
 
 <div class="sign-up">
-    <span><p>Sign Up</p></span>
+    <span><p>Register</p></span>
 
 
     <form method="post" action="index.php">
