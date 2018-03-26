@@ -1,0 +1,144 @@
+html{
+    font-size: 10px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid black;
+}
+
+.title{
+    grid-column: 1/2;
+    font-size: 1.5em;
+    font-family: arial;
+    border-right: 2px solid black;
+
+}
+
+.login{
+    grid-column: 2/3;
+}
+
+.login form{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.login form {
+    font-size: 1.5em;
+    font-family: arial;
+}
+
+.video{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.video p{
+    font-size: 2em;
+    font-family: arial;
+}
+
+.instructions {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+
+.instructions1 {
+    grid-column: 1/2;
+
+}
+.instructions1 img{
+    width: 500px;
+    height: 400px;
+    padding-bottom: 30px;
+}
+
+.instructions2{
+    grid-column: 2/3;
+}
+.instructions2 img{
+    width: 500px;
+    height: 400px;
+    padding-bottom: 30px;
+}
+
+
+.sign-up span p{
+    width: 30%;
+    margin: 50px auto 0px;
+    color : white;
+    background: #5f9ea0;
+    border: 1px solid black;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding :20px;
+    text-align: center;
+    font-size: 2em;
+    font-family: Arial;
+}
+.sign-up p{
+    font-size: 2em;
+    font-family: Arial;
+    color: red;
+
+    border: 2px solid red;
+    padding: 8px;
+}
+.sign-up form{
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid black;
+    background: white;
+
+    border-radius: 0px 0px 10px 10px;
+}
+
+.input-group1{
+    margin: 10px 0px 10px 0px;
+
+}
+.input-group1 label{
+    display: block;
+    text-align: left;
+    margin: 3px;
+    font-size: 2em;
+    font-family: Arial;
+
+}
+.input-group1 input{
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 1.6em;
+    border-radius: 5px;
+    border: 1px solid gray;
+
+
+}
+.input-group1 .btn1{
+
+    padding: 10px;
+    font-size: 1.5em;
+    color: white;
+    background: #5f9ea0;
+    border: none;
+    border-radius: 5px;
+}
